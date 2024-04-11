@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p class="csk" id="dhoni">I am Dhoni from Chennai</p>
+    <p class="mi">I am Sachin from Mumbai</p>
+    <p class="rcb">I am Kohli from Banglore</p>
+    <p class="mi">I am Rohit from Mumbai</p>
+    <p class="rcb" id="abd">I am ABD from Banglore</p>
+    <p class="csk">I am Raina from Chennai</p>
+
+
+    <script>
+
+        const yellow=document.getElementsByClassName("csk");
+        for(let i=0;i<yellow.length;i++){
+            yellow[i].style.color="yellow";
+        }
+
+        const blue=document.getElementsByClassName("mi");
+        for(let i=0;i<blue.length;i++){
+            blue[i].style.color="blue";
+        }
+
+        const red=document.getElementsByClassName("rcb");
+        for(let i=0;i<red.length;i++){
+            red[i].style.color="red";
+        }
+
+    </script> -->
+
+    <!-- <p>this is 1</p>
+    <p>this is 2</p>
+    <p>this is 3</p>
+
+    <script>
+
+        const p=document.querySelector("p");
+        p.style.color="yellow"
+
+    </script> -->
+
+    <p class="csk" id="dhoni">I am Dhoni from Chennai</p>
+    <p class="mi">I am Sachin from Mumbai</p>
+    <p class="rcb">I am Kohli from Banglore</p>
+    <p class="mi">I am Rohit from Mumbai</p>
+    <p class="rcb" id="abd">I am ABD from Banglore</p>
+    <p class="csk">I am Raina from Chennai</p>
+
+    <script>
+
+        const p=document.querySelectorAll(".csk")
+        p.forEach(element => {
+            element.style.color="yellow"
+        });
+
+    </script>
+</body>
+</html>
